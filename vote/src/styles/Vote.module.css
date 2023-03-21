@@ -1,0 +1,17 @@
+.h2 {
+    display: block;
+    position: relative;
+    font-family: var(--font-mono);
+}
+
+.h3 {
+    display: block;
+    position: relative;
+}
+
+.button {
+    position: relative;
+    font-family: var(--font-mono);
+    padding: 0.3rem;
+    margin: 0.4rem;
+}
