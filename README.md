@@ -39,8 +39,7 @@ kubectl delete -f k8s-specifications/
 
 ## Architecture
 
-Need to redo diagram with our tech stack
-![Architecture diagram](architecture.excalidraw.png)
+![Software4Cloud drawio](https://user-images.githubusercontent.com/19282069/227053374-04c64f4c-21c5-469d-8488-7daa7e74c14c.png)
 
 * A front-end web app in [Next.js](/vote) which lets you vote between two options
 * A [Redis](https://hub.docker.com/_/redis/) which collects new votes
