@@ -10,7 +10,7 @@ The best way to deploy the application for development is to use `Docker Compose
 docker compose up
 ```
 
-The `vote` app will be running at [http://localhost:5000](http://localhost:5000), and the `results` will be at [http://localhost:5001](http://localhost:5001).
+The `vote` app will be running at [http://localhost:5151](http://localhost:5151), and the `results` will be at [http://localhost:5001](http://localhost:5001).
 
 ## Run the app in Kubernetes
 
