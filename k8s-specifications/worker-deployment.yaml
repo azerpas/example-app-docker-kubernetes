@@ -15,5 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: worker:1.0
+      - image: worker:1.0-alpha
         name: worker
