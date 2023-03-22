@@ -11,8 +11,8 @@ app.controller('statsCtrl', function($scope){
   var updateScores = function(){
     socket.on('scores', function (json) {
        data = JSON.parse(json);
-       var a = parseInt(data.a || 0);
-       var b = parseInt(data.b || 0);
+       var a = parseInt(data.Cats || 0);
+       var b = parseInt(data.Dogs || 0);
 
        var percentages = getPercentages(a, b);
 
