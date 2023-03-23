@@ -15,7 +15,7 @@ export default async function handler(
         const voterId = randomBytes(64).toString('base64')
         let vote = 'Dogs'
         try {
-            vote = JSON.parse(req.body).vote
+            vote = req.body.vote
         } catch (error) {
             console.error(error)
             console.info('Missing param, voting for dogs then')
