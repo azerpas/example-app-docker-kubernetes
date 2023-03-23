@@ -1,14 +1,9 @@
-# this creates urlencode-friendly files without EOL
-import urllib.parse
 import json
 
-outfile = open('postb', 'w')
-params = ({ 'vote': 'Dogs' })
-encoded = json.dumps(params)
-outfile.write(encoded)
-outfile.close()
-outfile = open('posta', 'w')
-params = ({ 'vote': 'Cats' })
-encoded = json.dumps(params)
-outfile.write(encoded)
-outfile.close()
+votes = [{'file': 'postb', 'vote': 'Dogs'}, {'file': 'posta', 'vote': 'Cats'}]
+for vote in votes:
+    outfile = open(vote['file'], 'w')
+    params = ({ 'vote': vote['vote'] })
+    encoded = json.dumps(params)
+    outfile.write(encoded)
+    outfile.close()
