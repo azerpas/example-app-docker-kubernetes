@@ -1,5 +1,7 @@
 # Voting App with Docker Compose and Kubernetes
 
+Heavily inspired [by](https://github.com/dockersamples/example-voting-app)
+
 ## Getting started
 
 The best way to deploy the application for development is to use `Docker Compose`:
